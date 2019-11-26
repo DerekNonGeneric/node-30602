@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "exports": "./test.js",
+  "engines": {
+    "node": ">=13.2.0"
+  },
+  "scripts": {
+    "test": "node --experimental-resolve-self test.js"
+  },
+  "license": "0BSD"
+}
