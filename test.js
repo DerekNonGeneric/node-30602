@@ -1,1 +1,1 @@
-console.log(require('test'));
+require('test');
