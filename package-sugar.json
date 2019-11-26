@@ -1,8 +1,6 @@
 {
   "name": "test",
-  "exports": {
-    ".": "./test.js"
-  },
+  "exports": "./test.js",
   "engines": {
     "node": ">=13.2.0"
   },
