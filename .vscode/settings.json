@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.cjs": "javascript",
+        "*.mjs": "javascript"
+    }
+}

@@ -1,13 +1,14 @@
 {
   "name": "test",
-  "exports": {
-    ".": "./test.js"
-  },
+  "exports": "./test.js",
   "engines": {
     "node": ">=13.2.0"
   },
   "scripts": {
-    "test": "node --experimental-resolve-self test.js"
+    "test": "tap --no-esm --node-arg=--no-warnings --node-arg=--experimental-modules --node-arg=--experimental-json-modules test/*.{cjs,mjs}"
   },
-  "license": "0BSD"
+  "license": "0BSD",
+  "devDependencies": {
+    "tap": "^14.10.2"
+  }
 }
